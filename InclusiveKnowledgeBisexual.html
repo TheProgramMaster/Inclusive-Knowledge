@@ -8,6 +8,7 @@
 		text-align: center;
 	}
 	#pinkStripe{
+		color: deeppink;
 		background-color: deeppink;
 		padding: 10px;
 		border: 1px solid white;
@@ -15,6 +16,7 @@
 		width: 600px;
 	}
 	#purpleStripe{
+		color: darkviolet;
 		background-color: darkviolet;
 		padding: 10px;
 		border: 1px solid white;
@@ -22,6 +24,7 @@
 		width: 600px;
 	}
 	#blueStripe{
+		color: blue;
 		background-color: blue;
 		padding: 10px;
 		border: 1px solid white;
@@ -31,13 +34,31 @@
 	.container{
 		margin: 0 auto;
 	}
+	#pinkStripe:hover{
+		background-color: white;
+		color: black;
+	}
+	#purpleStripe:hover{
+		background-color: white;
+		color: black;
+	}
+	#blueStripe:hover{
+		background-color: white;
+		color: black;
+	}
 </style>
 </head>
 <body>
 <div id = "bisexualPrideFlag">
-	<div id="pinkStripe" class="container"></div>
-	<div id="purpleStripe" class="container"></div>
-	<div id="blueStripe" class="container"></div>
+	<div id="pinkStripe" class="container">
+		<p>This color represents attraction to the same sex.</p>
+	</div>
+	<div id="purpleStripe" class="container">
+		<p>This color represents attraction to both sexes.</p>
+	</div>
+	<div id="blueStripe" class="container">
+		<p>This color represents attraction to the opposite sex.</p>
+	</div>
 </div>
 </body>
 </html>
