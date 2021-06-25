@@ -5,6 +5,7 @@
 	<title>Inclusive Knowledge Intersex Page</title>
 	<style>
 	#yellowBackground{
+		color: yellow;
 		background-color: yellow;
 		padding: 10px;
 		border: 1px solid white;
@@ -26,12 +27,32 @@
 		background: yellow;
 		border: 25px solid purple;
 	}
+	#yellowBackground:hover .circle{
+		background-color: white;
+		color: black;
+		border: 0px solid white;
+	}
+	#yellowBackground:hover .circleBase{
+		background-color: white;
+		color: black;
+	}
+	#yellowBackground:hover{
+		background-color: white;
+		color: black;
+	}
+	#explanationText{
+		position: relative;
+		left: 200px;
+		bottom: 200px;
+	}
 </style>
 </head>
 <body>
 <div id="intersexPrideFlag">
 	<div id="yellowBackground" class="container">
-		<div class="circleBase circle"></div>
+		<div class="circleBase circle">
+			<p id="explanationText">The overall yellow color of this flag represents the gender-neutrality of individuals who are intersex. The circle depicted upon the flag represents the wholeness and completeness of individuals who are intersex.</p>
+		</div>
 	</div>
 </div>
 </body>
